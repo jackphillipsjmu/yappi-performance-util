@@ -1,0 +1,57 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+}
+ table {
+     border-spacing: 0;
+     width: 100%;
+     border: 1px solid #ddd;
+}
+ th {
+     cursor: pointer;
+     color: white;
+     background-color: rgb(58, 105, 155);
+     text-align: center;
+}
+ th, td {
+     text-align: center;
+     padding: 10px;
+}
+ tr:nth-child(even) {
+     background-color: rgb(220, 230, 242);
+}
+ .tooltip {
+    /* position: relative;
+     display: inline-block;
+     border-bottom: 1px dotted black;
+     */
+}
+ .tooltip .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+    /* padding: 5px 0;
+     */
+    /* Position the tooltip */
+     position: absolute;
+     z-index: 1;
+}
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+}
+ .bi-arrow-clockwise {
+     transition: transform 0.2s ease-in;
+}
+ .bi-arrow-clockwise:hover {
+     transform: rotate(360deg);
+}
+
+.fa-plus-circle:hover {
+ opacity: 0.5;
+}
+
+.fa-minus-circle:hover {
+ opacity: 0.5;
+}
